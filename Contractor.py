@@ -2,8 +2,8 @@ from employee import Employee
 
 
 class Contractor(Employee):
-    def __init__(self, id, name, address, age, number_of_projects, project_rate):
-        super().__init__(id, name, address, age)
+    def __init__(self, id, name, address, year_of_birth, number_of_projects, project_rate):
+        super().__init__(id, name, address, year_of_birth)
         self.number_of_projects = number_of_projects
         self.project_rate = project_rate
 

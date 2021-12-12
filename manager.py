@@ -2,8 +2,8 @@ from employee import Employee
 
 
 class Manager(Employee):
-    def __init__(self, id,  name, address, age, number_of_employees, employee_rate):
-        super().__init__(id, name, address, age)
+    def __init__(self, id, name, address, year_of_birth, number_of_employees, employee_rate):
+        super().__init__(id, name, address, year_of_birth)
         self.number_of_employees = number_of_employees
         self.employee_rate = employee_rate
 
