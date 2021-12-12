@@ -1,7 +1,7 @@
 from worker import Worker
 from manager import Manager
 from Contractor import Contractor
-
+from employee import Employee
 employee1 = Worker(123, 'liza', 'tel aviv', 1997, 55, 78)
 print(employee1)
 
